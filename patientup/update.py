@@ -1,6 +1,6 @@
 import sqlite3
 try:
-    db = sqlite3.connect("Hospital.db") #if recordings will remove the test.db will be create in Internal Storage
+    db = sqlite3.connect("Hospital.db")
 except:
     print('Fail... ')    
 cursor = db.cursor()
